@@ -1,7 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List = require('./components/List');
+var LeadCapture = require('./components/LeadCapture');
 
-ReactDOM.render(<List>
-                </List>
+ReactDOM.render(<LeadCapture />
                 , document.getElementById('ingredients'));
